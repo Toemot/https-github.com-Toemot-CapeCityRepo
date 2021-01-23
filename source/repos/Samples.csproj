@@ -1,0 +1,294 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{8B7CE906-F629-40C4-99DF-DE7A0DDC4A53}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Samples</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Calculator\Calculator.sln" />
+    <Content Include="Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll" />
+    <Content Include="Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe" />
+    <Content Include="Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb" />
+    <Content Include="Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csproj.FileListAbsolute.txt" />
+    <Content Include="Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.dll" />
+    <Content Include="Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.exe" />
+    <Content Include="Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.pdb" />
+    <Content Include="HelloWorld\HelloWorld.sln" />
+    <Content Include="HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.dll" />
+    <Content Include="HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.exe" />
+    <Content Include="HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.pdb" />
+    <Content Include="HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.csproj.FileListAbsolute.txt" />
+    <Content Include="HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.dll" />
+    <Content Include="HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.exe" />
+    <Content Include="HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.pdb" />
+    <Content Include="MyCoreApp1\MyCoreApp1.sln" />
+    <Content Include="MyCoreApp1\MyCoreApp1\bin\Debug\netcoreapp3.1\MyCoreApp1.dll" />
+    <Content Include="MyCoreApp1\MyCoreApp1\bin\Debug\netcoreapp3.1\MyCoreApp1.exe" />
+    <Content Include="MyCoreApp1\MyCoreApp1\bin\Debug\netcoreapp3.1\MyCoreApp1.pdb" />
+    <Content Include="MyCoreApp1\MyCoreApp1\bin\Debug\netcoreapp3.1\MyCoreApp1.Views.dll" />
+    <Content Include="MyCoreApp1\MyCoreApp1\bin\Debug\netcoreapp3.1\MyCoreApp1.Views.pdb" />
+    <Content Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.csproj.FileListAbsolute.txt" />
+    <Content Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.dll" />
+    <Content Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.exe" />
+    <Content Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.pdb" />
+    <Content Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.Views.dll" />
+    <Content Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.Views.pdb" />
+    <Content Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\staticwebassets\MyCoreApp1.StaticWebAssets.xml" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\css\site.css" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\favicon.ico" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\js\site.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery\dist\jquery.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery\dist\jquery.min.js" />
+    <Content Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery\LICENSE.txt" />
+    <Content Include="MyCoreApp\MyCoreApp.sln" />
+    <Content Include="Program\Program.sln" />
+    <Content Include="Program\Program\bin\Debug\netcoreapp3.1\Program.dll" />
+    <Content Include="Program\Program\bin\Debug\netcoreapp3.1\Program.exe" />
+    <Content Include="Program\Program\bin\Debug\netcoreapp3.1\Program.pdb" />
+    <Content Include="Program\Program\obj\Debug\netcoreapp3.1\Program.csproj.FileListAbsolute.txt" />
+    <Content Include="Program\Program\obj\Debug\netcoreapp3.1\Program.dll" />
+    <Content Include="Program\Program\obj\Debug\netcoreapp3.1\Program.exe" />
+    <Content Include="Program\Program\obj\Debug\netcoreapp3.1\Program.pdb" />
+    <Content Include="QuickSolution\QuickDate\bin\Debug\QuickDate.exe" />
+    <Content Include="QuickSolution\QuickDate\bin\Debug\QuickDate.pdb" />
+    <Content Include="QuickSolution\QuickDate\obj\Debug\QuickDate.csproj.FileListAbsolute.txt" />
+    <Content Include="QuickSolution\QuickDate\obj\Debug\QuickDate.exe" />
+    <Content Include="QuickSolution\QuickDate\obj\Debug\QuickDate.pdb" />
+    <Content Include="QuickSolution\QuickSolution.sln" />
+    <Content Include="SomeWork\SomeWork.sln" />
+    <Content Include="SomeWork\SomeWork\bin\Debug\netcoreapp3.1\SomeWork.dll" />
+    <Content Include="SomeWork\SomeWork\bin\Debug\netcoreapp3.1\SomeWork.exe" />
+    <Content Include="SomeWork\SomeWork\bin\Debug\netcoreapp3.1\SomeWork.pdb" />
+    <Content Include="SomeWork\SomeWork\obj\Debug\netcoreapp3.1\SomeWork.csproj.FileListAbsolute.txt" />
+    <Content Include="SomeWork\SomeWork\obj\Debug\netcoreapp3.1\SomeWork.dll" />
+    <Content Include="SomeWork\SomeWork\obj\Debug\netcoreapp3.1\SomeWork.exe" />
+    <Content Include="SomeWork\SomeWork\obj\Debug\netcoreapp3.1\SomeWork.pdb" />
+    <Content Include="Toemot\bin\Debug\netcoreapp3.1\Toemot.dll" />
+    <Content Include="Toemot\bin\Debug\netcoreapp3.1\Toemot.exe" />
+    <Content Include="Toemot\bin\Debug\netcoreapp3.1\Toemot.pdb" />
+    <Content Include="Toemot\obj\Debug\netcoreapp3.1\Toemot.csproj.FileListAbsolute.txt" />
+    <Content Include="Toemot\obj\Debug\netcoreapp3.1\Toemot.dll" />
+    <Content Include="Toemot\obj\Debug\netcoreapp3.1\Toemot.exe" />
+    <Content Include="Toemot\obj\Debug\netcoreapp3.1\Toemot.pdb" />
+    <Content Include="Toemot\Toemot.sln" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json" />
+    <None Include="Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.dev.json" />
+    <None Include="Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json" />
+    <None Include="Calculator\Calculator\Calculator.csproj" />
+    <None Include="Calculator\Calculator\obj\Calculator.csproj.nuget.cache" />
+    <None Include="Calculator\Calculator\obj\Calculator.csproj.nuget.dgspec.json" />
+    <None Include="Calculator\Calculator\obj\Calculator.csproj.nuget.g.props" />
+    <None Include="Calculator\Calculator\obj\Calculator.csproj.nuget.g.targets" />
+    <None Include="Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfoInputs.cache" />
+    <None Include="Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.assets.cache" />
+    <None Include="Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csprojAssemblyReference.cache" />
+    <None Include="Calculator\Calculator\obj\project.assets.json" />
+    <None Include="HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.deps.json" />
+    <None Include="HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.runtimeconfig.dev.json" />
+    <None Include="HelloWorld\HelloWorld\bin\Debug\netcoreapp3.1\HelloWorld.runtimeconfig.json" />
+    <None Include="HelloWorld\HelloWorld\HelloWorld.csproj" />
+    <None Include="HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.AssemblyInfoInputs.cache" />
+    <None Include="HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.assets.cache" />
+    <None Include="HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.csprojAssemblyReference.cache" />
+    <None Include="HelloWorld\HelloWorld\obj\HelloWorld.csproj.nuget.cache" />
+    <None Include="HelloWorld\HelloWorld\obj\HelloWorld.csproj.nuget.dgspec.json" />
+    <None Include="HelloWorld\HelloWorld\obj\HelloWorld.csproj.nuget.g.props" />
+    <None Include="HelloWorld\HelloWorld\obj\HelloWorld.csproj.nuget.g.targets" />
+    <None Include="HelloWorld\HelloWorld\obj\project.assets.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\appsettings.Development.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\appsettings.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\bin\Debug\netcoreapp3.1\appsettings.Development.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\bin\Debug\netcoreapp3.1\appsettings.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\bin\Debug\netcoreapp3.1\MyCoreApp1.deps.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\bin\Debug\netcoreapp3.1\MyCoreApp1.runtimeconfig.dev.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\bin\Debug\netcoreapp3.1\MyCoreApp1.runtimeconfig.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\bin\Debug\netcoreapp3.1\Properties\launchSettings.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\MyCoreApp1.csproj" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.AssemblyInfoInputs.cache" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.assets.cache" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.csproj.CopyComplete" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.csprojAssemblyReference.cache" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.RazorAssemblyInfo.cache" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.RazorCoreGenerate.cache" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.RazorTargetAssemblyInfo.cache" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.TagHelpers.input.cache" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.TagHelpers.output.cache" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\staticwebassets\MyCoreApp1.StaticWebAssets.Manifest.cache" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\MyCoreApp1.csproj.nuget.cache" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\MyCoreApp1.csproj.nuget.dgspec.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\MyCoreApp1.csproj.nuget.g.props" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\MyCoreApp1.csproj.nuget.g.targets" />
+    <None Include="MyCoreApp1\MyCoreApp1\obj\project.assets.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\Pages\Error.cshtml" />
+    <None Include="MyCoreApp1\MyCoreApp1\Pages\Index.cshtml" />
+    <None Include="MyCoreApp1\MyCoreApp1\Pages\Privacy.cshtml" />
+    <None Include="MyCoreApp1\MyCoreApp1\Pages\Shared\_Layout.cshtml" />
+    <None Include="MyCoreApp1\MyCoreApp1\Pages\Shared\_ValidationScriptsPartial.cshtml" />
+    <None Include="MyCoreApp1\MyCoreApp1\Pages\_ViewImports.cshtml" />
+    <None Include="MyCoreApp1\MyCoreApp1\Pages\_ViewStart.cshtml" />
+    <None Include="MyCoreApp1\MyCoreApp1\Properties\launchSettings.json" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\bootstrap\LICENSE" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery-validation\LICENSE.md" />
+    <None Include="MyCoreApp1\MyCoreApp1\wwwroot\lib\jquery\dist\jquery.min.map" />
+    <None Include="MyCoreApp\MyCoreApp\MyCoreApp.csproj" />
+    <None Include="MyCoreApp\MyCoreApp\obj\Debug\netcoreapp3.1\MyCoreApp.AssemblyInfoInputs.cache" />
+    <None Include="MyCoreApp\MyCoreApp\obj\Debug\netcoreapp3.1\MyCoreApp.assets.cache" />
+    <None Include="MyCoreApp\MyCoreApp\obj\Debug\netcoreapp3.1\MyCoreApp.csprojAssemblyReference.cache" />
+    <None Include="MyCoreApp\MyCoreApp\obj\MyCoreApp.csproj.nuget.cache" />
+    <None Include="MyCoreApp\MyCoreApp\obj\MyCoreApp.csproj.nuget.dgspec.json" />
+    <None Include="MyCoreApp\MyCoreApp\obj\MyCoreApp.csproj.nuget.g.props" />
+    <None Include="MyCoreApp\MyCoreApp\obj\MyCoreApp.csproj.nuget.g.targets" />
+    <None Include="MyCoreApp\MyCoreApp\obj\project.assets.json" />
+    <None Include="Program\Program\bin\Debug\netcoreapp3.1\Program.deps.json" />
+    <None Include="Program\Program\bin\Debug\netcoreapp3.1\Program.runtimeconfig.dev.json" />
+    <None Include="Program\Program\bin\Debug\netcoreapp3.1\Program.runtimeconfig.json" />
+    <None Include="Program\Program\obj\Debug\netcoreapp3.1\Program.AssemblyInfoInputs.cache" />
+    <None Include="Program\Program\obj\Debug\netcoreapp3.1\Program.assets.cache" />
+    <None Include="Program\Program\obj\Debug\netcoreapp3.1\Program.csprojAssemblyReference.cache" />
+    <None Include="Program\Program\obj\Program.csproj.nuget.cache" />
+    <None Include="Program\Program\obj\Program.csproj.nuget.dgspec.json" />
+    <None Include="Program\Program\obj\Program.csproj.nuget.g.props" />
+    <None Include="Program\Program\obj\Program.csproj.nuget.g.targets" />
+    <None Include="Program\Program\obj\project.assets.json" />
+    <None Include="Program\Program\Program.csproj" />
+    <None Include="QuickSolution\QuickDate\App.config" />
+    <None Include="QuickSolution\QuickDate\bin\Debug\QuickDate.exe.config" />
+    <None Include="QuickSolution\QuickDate\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="QuickSolution\QuickDate\obj\Debug\QuickDate.csprojAssemblyReference.cache" />
+    <None Include="QuickSolution\QuickDate\QuickDate.csproj" />
+    <None Include="SomeWork\SomeWork\bin\Debug\netcoreapp3.1\SomeWork.deps.json" />
+    <None Include="SomeWork\SomeWork\bin\Debug\netcoreapp3.1\SomeWork.runtimeconfig.dev.json" />
+    <None Include="SomeWork\SomeWork\bin\Debug\netcoreapp3.1\SomeWork.runtimeconfig.json" />
+    <None Include="SomeWork\SomeWork\obj\Debug\netcoreapp3.1\SomeWork.AssemblyInfoInputs.cache" />
+    <None Include="SomeWork\SomeWork\obj\Debug\netcoreapp3.1\SomeWork.assets.cache" />
+    <None Include="SomeWork\SomeWork\obj\Debug\netcoreapp3.1\SomeWork.csprojAssemblyReference.cache" />
+    <None Include="SomeWork\SomeWork\obj\project.assets.json" />
+    <None Include="SomeWork\SomeWork\obj\SomeWork.csproj.nuget.cache" />
+    <None Include="SomeWork\SomeWork\obj\SomeWork.csproj.nuget.dgspec.json" />
+    <None Include="SomeWork\SomeWork\obj\SomeWork.csproj.nuget.g.props" />
+    <None Include="SomeWork\SomeWork\obj\SomeWork.csproj.nuget.g.targets" />
+    <None Include="SomeWork\SomeWork\SomeWork.csproj" />
+    <None Include="Toemot\bin\Debug\netcoreapp3.1\Toemot.deps.json" />
+    <None Include="Toemot\bin\Debug\netcoreapp3.1\Toemot.runtimeconfig.dev.json" />
+    <None Include="Toemot\bin\Debug\netcoreapp3.1\Toemot.runtimeconfig.json" />
+    <None Include="Toemot\obj\Debug\netcoreapp3.1\Toemot.AssemblyInfoInputs.cache" />
+    <None Include="Toemot\obj\Debug\netcoreapp3.1\Toemot.assets.cache" />
+    <None Include="Toemot\obj\Debug\netcoreapp3.1\Toemot.csprojAssemblyReference.cache" />
+    <None Include="Toemot\obj\project.assets.json" />
+    <None Include="Toemot\obj\Toemot.csproj.nuget.cache" />
+    <None Include="Toemot\obj\Toemot.csproj.nuget.dgspec.json" />
+    <None Include="Toemot\obj\Toemot.csproj.nuget.g.props" />
+    <None Include="Toemot\obj\Toemot.csproj.nuget.g.targets" />
+    <None Include="Toemot\Toemot.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.AssemblyInfo.cs" />
+    <Compile Include="Calculator\Calculator\Program.cs" />
+    <Compile Include="HelloWorld\Class1.cs" />
+    <Compile Include="HelloWorld\HelloWorld\obj\Debug\netcoreapp3.1\HelloWorld.AssemblyInfo.cs" />
+    <Compile Include="HelloWorld\HelloWorld\Program.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\Models\Movie.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.AssemblyInfo.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.RazorAssemblyInfo.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\MyCoreApp1.RazorTargetAssemblyInfo.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\Razor\Pages\Index.cshtml.g.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\Razor\Pages\Privacy.cshtml.g.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_Layout.cshtml.g.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewStart.cshtml.g.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\Pages\Error.cshtml.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\Pages\Index.cshtml.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\Pages\Privacy.cshtml.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\Program.cs" />
+    <Compile Include="MyCoreApp1\MyCoreApp1\Startup.cs" />
+    <Compile Include="MyCoreApp\MyCoreApp\obj\Debug\netcoreapp3.1\MyCoreApp.AssemblyInfo.cs" />
+    <Compile Include="MyCoreApp\MyCoreApp\Program.cs" />
+    <Compile Include="Program\Program\obj\Debug\netcoreapp3.1\Program.AssemblyInfo.cs" />
+    <Compile Include="Program\Program\Program.cs" />
+    <Compile Include="QuickSolution\QuickDate\Calendar.cs" />
+    <Compile Include="SomeWork\SomeWork\obj\Debug\netcoreapp3.1\SomeWork.AssemblyInfo.cs" />
+    <Compile Include="SomeWork\SomeWork\Program.cs" />
+    <Compile Include="Toemot\obj\Debug\netcoreapp3.1\Toemot.AssemblyInfo.cs" />
+    <Compile Include="Toemot\Program.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\Samples\v16\" />
+    <Folder Include="MyCoreApp1\MyCoreApp1\Pages\Movies\NewScaffoldedItem\" />
+    <Folder Include="MyCoreApp\MyCoreApp\bin\Debug\netcoreapp3.1\" />
+    <Folder Include="QuickSolution\QuickDate\bin\Release\" />
+    <Folder Include="QuickSolution\QuickDate\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

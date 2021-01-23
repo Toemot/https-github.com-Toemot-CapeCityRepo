@@ -1,0 +1,24 @@
+﻿@model ChilliApp.Models.Customer
+
+@{
+    ViewBag.Title = "Detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.Name</h2>
+
+<ul>
+    <li>@Model.MembershipType.Name</li>
+    @if (Model.Birthdate == null)
+    {
+        <li>We do not have any customers yet</li>
+    }
+    else
+    {
+        <li>@Model.Birthdate.Value.ToString("dd/ MM/ yyyy")</li>
+    }
+</ul>
+
+@section scripts
+    {
+    }

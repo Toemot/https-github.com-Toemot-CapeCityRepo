@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresLes", "PresLes\PresLes.csproj", "{BCE72A89-36C0-4CD4-8EA8-920189F1B60C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACME.UnitTests", "ACME.UnitTests\ACME.UnitTests.csproj", "{A859F995-323E-49D7-B390-D565291D06FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE72A89-36C0-4CD4-8EA8-920189F1B60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE72A89-36C0-4CD4-8EA8-920189F1B60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE72A89-36C0-4CD4-8EA8-920189F1B60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE72A89-36C0-4CD4-8EA8-920189F1B60C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A859F995-323E-49D7-B390-D565291D06FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A859F995-323E-49D7-B390-D565291D06FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A859F995-323E-49D7-B390-D565291D06FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A859F995-323E-49D7-B390-D565291D06FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {160826AD-9240-4889-9733-E9135EC95187}
+	EndGlobalSection
+EndGlobal
